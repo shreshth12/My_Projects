@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <img class="container float-right account-img" src="{{ url_for('static', filename='profile_pics/' + 'SHRE.JPG') }}" alt="This is my picture">
+
+    <div class="content-section blockquote">
+    <h1 class="display-6 text-muted font-italic"> Hello! Welcome to this web application. My name is Shreshth Kaushik. This website was made using flask framework in Python. <span class="text-danger display-4">I do not love to code</span>, yet I sometimes have to. I hope you like and appreciate the work put on this project. Thank you!</h1><br>
+    <footer class="blockquote-footer">Myself</footer>
+  </div>
+{% endblock content %}
